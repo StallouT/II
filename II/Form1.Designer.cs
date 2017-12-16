@@ -52,6 +52,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -255,12 +256,24 @@
             this.textBox15.Size = new System.Drawing.Size(227, 20);
             this.textBox15.TabIndex = 31;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(158)))), ((int)(((byte)(158)))));
+            this.label9.Location = new System.Drawing.Point(444, 241);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(24, 26);
+            this.label9.TabIndex = 32;
+            this.label9.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(8)))), ((int)(((byte)(8)))));
             this.ClientSize = new System.Drawing.Size(662, 510);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox15);
             this.Controls.Add(this.textBox14);
             this.Controls.Add(this.label8);
@@ -318,6 +331,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label9;
     }
 }
 
